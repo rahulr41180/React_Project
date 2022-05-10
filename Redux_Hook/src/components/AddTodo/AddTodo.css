@@ -1,0 +1,147 @@
+
+.container {
+
+    border: 1px solid;
+    width: 80%;
+    padding: 1vw;
+    margin: auto;
+    display: flex;
+}
+.LeftNavbar {
+    border: 1px solid;
+
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.LeftNavbar > div:nth-child(1) {
+    border: 1px solid;
+    padding: 1vw;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+.LeftNavbar > div:nth-child(1) > p:nth-child(1) {
+    border: 1px solid;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2vw;
+}
+.LeftNavbar > div:nth-child(2) {
+    border: 1px solid;
+    padding: 1vw;
+}
+.login {
+    border: 1px solid;
+    width: 95.5%;
+    padding: .4vw;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.login > div {
+    border: 1px solid;
+    width: fit-content;
+    margin: auto;
+    font-size: 1.4vw;
+}
+.Right__Box {
+    border: 1px solid;
+    width: 72%;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+form {
+    border: 1px solid;
+    padding: 1vw;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .5vw;
+}
+form > div:nth-child(1) {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1vw;
+}
+form > div:nth-child(1) > div:nth-child(1) {
+    border: 1px solid;
+    display: flex;
+}
+form > div:nth-child(1) > div:nth-child(1) > input {
+
+    width: 100%;
+    padding: .2vw 1vw;
+    height: 2vw;
+    outline: none;
+    font-size: 1.4vw;
+}
+form > div:nth-child(1) > div:nth-child(2) {
+    border: 1px solid;
+    display: flex;
+}
+form > div:nth-child(1) > div:nth-child(1) > textarea {
+    width: 100%;
+    padding: 1vw;
+    outline: none;
+    font-size: 1.4vw;
+}
+
+form > div:nth-child(2) {
+    border: 1px solid;
+}
+form > div:nth-child(2) > div:nth-child(1) {
+    border: 1px solid;
+    display: flex;
+    gap: .5vw;
+    
+    padding: .5vw;
+    width: 93.5%;
+}
+form > div:nth-child(2) > div:nth-child(1) > input {
+    width: 60%;
+    padding: .4vw 1vw;
+    font-size: 1.4vw;
+    outline: none;
+}
+
+form > div:nth-child(2) > div:nth-child(2) {
+    border: 1px solid;
+    padding: .5vw;
+    width: 93.5%;
+    margin-top: .5vw;
+}
+form > div:nth-child(2) > div:nth-child(2) > div {
+    border: 1px solid;
+    margin: auto;
+    
+    margin-bottom: .4vw;
+    display: flex;
+    justify-content: space-between;
+    gap: .5vw;
+}
+form > div:nth-child(2) > div:nth-child(2) > div > input {
+    width: 10%;
+    height: 1.5vw;
+}
+form > div:nth-child(2) > div:nth-child(2) > div > label {
+   
+    font-size: 1.3vw;
+
+}
+form > div:nth-child(3) {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+form > div:nth-child(3) > input {
+    padding: .4vw 1vw;
+    font-size: 1.4vw;
+}

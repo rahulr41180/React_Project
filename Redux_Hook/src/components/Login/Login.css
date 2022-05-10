@@ -1,0 +1,56 @@
+
+.container {
+
+    border: 1px solid;
+    width: 80%;
+    padding: 1vw;
+    margin: auto;
+    display: flex;
+}
+
+.LeftNavbar {
+    border: 1px solid;
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.login {
+    border: 1px solid;
+    width: 95.5%;
+    padding: .4vw;
+    text-decoration: none;
+}
+.login > div {
+    border: 1px solid;
+    width: fit-content;
+    margin: auto;
+    font-size: 1.4vw;
+}
+.Right__Box {
+    border: 1px solid;
+    width: 72%;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.Right__Box > div {
+    border: 1px solid;
+    width: 35%;
+    padding: 1vw;
+    margin: auto;
+}
+.Right__Box > div > form {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+    width: 89.6%;
+}
+form > input {
+    padding: .5vw;
+    font-size: 1.2vw;
+}
+form > input:last-child {
+    cursor: pointer;
+}

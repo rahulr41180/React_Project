@@ -1,0 +1,120 @@
+
+
+.container {
+
+    border: 1px solid;
+    width: 80%;
+    padding: 1vw;
+    margin: auto;
+    display: flex;
+}
+
+.LeftNavbar {
+    border: 1px solid;
+
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.login {
+    border: 1px solid;
+    width: 95.5%;
+    padding: .4vw;
+    text-decoration: none;
+    color: black;
+}
+.login > div {
+    border: 1px solid;
+    width: fit-content;
+    margin: auto;
+    font-size: 1.4vw;
+}
+.Right__Box {
+    border: 1px solid;
+    width: 72%;
+    padding: .2vw .5vw 0 .5vw;
+    display: flex;
+    gap: 1vw;
+}
+#Todo__Box {
+    border: 1px solid;
+    width: 33.2%;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#Todo__Box > div:nth-child(1) {
+    border: 1px solid pink;
+    padding: .6vw;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 250);
+}
+#Todo__Box > div:nth-child(2) {
+    border: 1px solid;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#Todo__Box > div:nth-child(2) > div {
+    border: 1px solid;
+    padding: .2vw;
+    width: 90%;
+    margin: auto;
+}
+#Todo__Box > div:nth-child(2) > div > p {
+    border: 1px solid;
+    margin: auto auto auto .2vw;
+    
+    font-size: 1.25vw;
+}
+#Todo__Box > div:nth-child(2) > div > div {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+#Todo__Box > div:nth-child(2) > div > div > p {
+    border: 1px solid;
+
+    margin: auto 0 auto .2vw;
+}
+#Todo__Box > div:nth-child(2) > div > div:last-child {
+    padding: .5vw;
+    width: 90.5%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#Todo__Box > div:nth-child(2) > div > div:last-child > div {
+    
+    border: 1px solid;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.checkbox {
+
+    width: 10%;
+    height: 1.5vw;
+
+}
+label {
+    font-size: 1.3vw;
+}
+#InProgress__Box {
+    border: 1px solid;
+    width: 33.2%;
+    padding: 0;
+}
+#Done__Box {
+    border: 1px solid;
+    width: 33.2%;
+    padding: 0;
+}
